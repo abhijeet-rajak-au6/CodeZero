@@ -1,0 +1,31 @@
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.navBarList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navItem{
+    padding:5px 20px;
+    color: #506FB6;
+}
+.navItem:hover{
+    cursor: pointer;
+}
+
+.navBarButton{
+    background-color: #3460EA;
+    color: #ffffff;
+    height:50px;
+    width:100px;
+    padding:10px 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    border:none
+}

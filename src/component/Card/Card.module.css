@@ -1,0 +1,31 @@
+.Card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 100px 0;
+    padding:0 120px;
+}
+.CardItem {
+    flex:1
+}
+.Icon{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.CardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.CompanyListContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding:0 120px;
+}

@@ -1,0 +1,74 @@
+.FormContainer{
+    background-color: #F9FBFD;
+    display: flex;
+    justify-content: space-around;
+    padding:100px 120px;
+    flex-wrap: wrap;
+}
+.Form{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    /* background-color: #ffffff; */
+
+}
+.FormContent{
+    flex: 1;
+}
+.ButtonSubmit{
+    background-color: #53BA96;
+    color: #ffffff;
+    padding:20px 10px;
+    width:80%;
+    font-size: 18px;
+    border-radius: 8px;
+    outline: none;
+    border:none;
+    margin: 25px 0px;
+    
+}
+
+input{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #F1F4F8
+}
+input:focus{
+    border-color: blue
+}
+input:focus ~ .floatingLabel,
+input:not(:focus):valid ~ .floating-label{
+  top: 8px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 80%;
+  height: 35px;
+  padding: 5px 10px;
+}
+
+.floatingLabel {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 18px;
+  transition: 0.2s ease all;
+}
+.FormInput{
+    padding:10px 5px;
+}
+
+.Image {
+    border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius: 120% 15%;
+  border-bottom-right-radius: 120% 15%;
+}
